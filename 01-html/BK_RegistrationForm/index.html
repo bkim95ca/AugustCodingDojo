@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <label for="fname">First Name: *</label>
+            <input type="text" id="fname" required>
+        </div>
+        <div>
+            <label for="lname">Last Name: *</label>
+            <input type="text" id="lname" required>
+        </div>
+        <div> 
+            <label for="email">Email Address: *</label>
+            <input type="email" id="email" required>
+        </div>
+        <div>
+            <label for="password">Password: *</label> 
+            <input type="password" id="password" required> 
+        </div>
+        <div>
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" required>
+        </div>
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday">
+        </div>
+        <div>
+            <p>Gender Identity:</p>
+            <input type="radio" id="male" name="gender_id">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender_id">
+            <label for="female">Female</label>
+            <input type="radio" name="gender_id" id="non_binary">
+            <label for="non_binary">Non-Binary</label>
+            <input type="radio" name="gender_id" id="no_answer">
+            <label for="no_answer">I prefer not to answer</label>
+        </div>
+        <div>
+            <label for="description">A short description about myself:</label> <br>
+            <textarea name="description_text" id="description" cols="30" rows="3"></textarea>
+        </div>
+    </form>
+</body>
+</html>

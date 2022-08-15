@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakers Sign Up</title>
+</head>
+<body>
+    <h1>Lakers Roster and Try-Outs</h1>
+    <p>We are currently in <b>desperate</b> need for better players. Help! <em>Note: We need shooters the most</em></p>
+    <div>
+        <h3>Current Roster</h3>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Position</th>
+            </tr>
+            <tr>
+                <td>Lebron</td>
+                <td>James</td>
+                <td>38</td>
+                <td>SF</td>
+            </tr>
+            <tr>
+                <td>Anthony</td>
+                <td>Davis</td>
+                <td>28</td>
+                <td>PF</td>
+            </tr>
+            <tr>
+                <td>Kyrie</td>
+                <td>Irving</td>
+                <td>28</td>
+                <td>PG</td>
+            </tr>
+            <tr>
+                <td>Carmelo</td>
+                <td>Anthony</td>
+                <td>39</td>
+                <td>SG</td>
+            </tr>
+            <tr>
+                <td>Dwight</td>
+                <td>Howard</td>
+                <td>35</td>
+                <td>C</td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+    <div>
+        <h3>Fill out the form below to try out for the Lakers.</h3>
+        <form>
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="exp">Years of Experience</label>
+                <input type="number" id="exp" max="50">
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="jersey_color">Indicate your jersey color</label>
+                <input type="color" id="jersey_color">
+            </div>
+            <div>
+                <label for="position">Your Position:</label>
+                <select id="position">
+                    <option value="PG">Point Guard (PG)</option>
+                    <option value="SG">Shooting Guard (SG)</option>
+                    <option value="SF">Small Forward (SF)</option>
+                    <option value="PF">Power Forward (PF)</option>
+                    <option value="C">Center (C)</option>
+                </select>
+            </div>
+            <div>
+                <p>Please select your jersey size</p>
+                <input type="radio" name="jersey_size" id="small">
+                <label for="small">Small</label>
+                <input type="radio" name="jersey_size" id="medium">
+                <label for="medium">Medium</label>
+                <input type="radio" name="jersey_size" id="large">
+                <label for="large">large</label>
+                <input type="radio" name="jersey_size" id="xlarge">
+                <label for="xlarge">xlarge</label>
+            </div>
+            <div>
+                <p>Are you a veteran?</p>
+                <input type="radio" name="veteran" id="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="veteran" id="no">
+                <label for="no">No</label>
+                <input type="radio" name="veteran" id="prefer">
+                <label for="prefer">Prefer not to disclose</label>
+            </div>
+            <div>
+                <p>Select days you can work out with us</p>
+                <label for="Monday">Monday</label>
+                <input type="checkbox" name="availability" id="Monday">
+                <label for="Tuesday">Tuesday</label>
+                <input type="checkbox" name="availability" id="Tuesday">
+                <label for="Wednesday">Wednesday</label>
+                <input type="checkbox" name="availability" id="Wednesday">
+                <label for="Thursday">Thursday</label>
+                <input type="checkbox" name="availability" id="Thursday">
+                <label for="Friday">Friday</label>
+                <input type="checkbox" name="availability" id="Friday">
+                <label for="Saturday">Saturday</label>
+                <input type="checkbox" name="availability" id="Saturday">
+                <label for="Sunday">Sunday</label>
+                <input type="checkbox" name="availability" id="Sunday">
+            </div>
+            <div>
+                <label for="about_you">Tell us a brief background of yourself:</label> <br>
+                <textarea name="" id="about_you" cols="30" rows="10" maxlength="500"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

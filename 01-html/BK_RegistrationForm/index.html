@@ -34,7 +34,7 @@
             <input type="date" id="birthday">
         </div>
         <div>
-            <p>Gender Identity:</p>
+            <label for="">Gender Identity:</label>
             <input type="radio" id="male" name="gender_id">
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender_id">
@@ -48,6 +48,21 @@
             <label for="description">A short description about myself:</label> <br>
             <textarea name="description_text" id="description" cols="30" rows="3"></textarea>
         </div>
+        <div>
+            <label for="language">Favorite Language:</label>
+            <select id="language">
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="SQL">SQL</option>
+                <option value="HTML">HTML</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="updates">
+            <label for="updates">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <input type="submit" value="Create Account">
     </form>
+    <p><em>* Indicates a required field</em></p>
 </body>
 </html>

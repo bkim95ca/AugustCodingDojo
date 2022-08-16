@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*box-sizing: border-box (include padding and border to be the total height)*/
+    font-family: monospace;
+}
+
+body {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.red_font {
+    color: red;
+}
+
+#purp {
+    color: purple;
+}
+
+#header {
+    border: 1px solid black;
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+    height: 150px;
+    overflow-y:scroll;
+    margin-bottom: 20px;
+}
+
+#header > button {
+    /* padding: 5px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    padding-left: 5px; */
+
+    /* padding: 10px 20px 100px 5px; */
+
+    /* padding: 10px; */
+    height: 50px;
+    width: 100px;
+}
+
+#slogan {
+    margin-bottom: 10px;
+}
+
+#header > p {
+    line-height: 20px;
+}
+
+#left-bar {
+    height: 400px;
+    background-color: aqua;
+    border: 1px solid black;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#main {
+    height: 500px;
+    background-color: brown;
+    width: 800px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px;
+}
+
+.blue-box {
+    padding: 20px;
+    background-color: blue;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.blue-box > img {
+    border-radius: 50%;
+}
+
+#info {
+    height: 150px;
+    background-color: deepskyblue;
+    margin-top: 30px;
+}
+/* #header p {
+    font-family: cursive;
+    color: red;
+    font-size: 24px;
+} */
+
+
+
+/*
+Border has 3 properties, 1px (how thick the border is), solid (what kind of border it is could also be lined, etc.), black (color of the border)
+
+
+> selects a direct descendant of the parent
+
+ex.) #header > p selects only the p inside header
+
+#header p selects all p's under 
+
+padding is the cushion around the inside of the elements
+
+margin is around the elements
+
+padding: 10px (top) 20px (right) 30px (bottom) 40px (left) (goes clockwise starting from 12)
+
+padding: 10px (top and bottom) 25px (left and right)
+
+total height includes the padding and border size (same with total width)
+*/

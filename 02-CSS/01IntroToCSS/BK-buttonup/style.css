@@ -1,0 +1,38 @@
+body{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+button {
+    display:block;
+    margin-bottom: 15px;
+}
+
+#first-btn {
+    border-radius: 100px;
+    width: 150px;
+    height: 25px;
+    color:rgb(23, 199, 140);
+    font-weight: bold;
+    border-color: rgb(23, 199, 140);
+    font-size: 15px;
+}
+
+#second-btn {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    background-color: rgb(23, 199, 140);
+    border-style:hidden;
+    color:white;
+}
+
+#third-btn {
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: 5px 5px 0px black;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+}

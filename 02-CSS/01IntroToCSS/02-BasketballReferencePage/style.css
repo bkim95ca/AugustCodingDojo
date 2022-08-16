@@ -1,0 +1,70 @@
+h1 {
+    color:rgba(21, 71, 222, 0.756);
+    background-color: blanchedalmond;
+    font-size: 50px;
+}
+
+#slogan {
+    color:red;
+    text-align: center;
+}
+
+#basketball {
+    color:orange;
+}
+
+li {
+    color: darkolivegreen;
+    font-weight:bold;
+}
+
+.crossed-out {
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.is-red {
+    color:red;
+}
+
+button {
+    background-color: aquamarine;
+    font-size: 20px;
+    display:block;
+    margin-bottom: 20px;
+}
+
+#middle {
+    color: blue;
+    height: 200px;
+    width: 100px;
+}
+
+.round-btn {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#last-btn {
+    border-radius: 15px;
+    width: 200px;
+}
+
+.shadow {
+    box-shadow: 3px 3px 3px black;
+}
+
+/*
+h1 is the selector 
+
+color is the css property
+chocolate is the value
+color: chocolate; --> this combo of property + value = css rule
+
+*/
+
+
+/*
+box-shadows: 30px (means going right or the left) 30px (means going down or up) 30px (makes the lines blurrier)
+*/

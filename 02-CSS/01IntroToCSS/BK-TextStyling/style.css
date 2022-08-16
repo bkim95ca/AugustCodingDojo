@@ -1,0 +1,30 @@
+h1 {
+    background-color: black;
+    color:white;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-bottom: -30px;
+}
+
+#cloud {
+    color:aqua;
+}
+
+h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -25px;
+}
+
+h3 {
+    background-color:cornflowerblue;
+    color:darkslateblue;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}

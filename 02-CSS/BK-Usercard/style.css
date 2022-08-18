@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    /* border: 5px solid blue; */
+    padding: 30px;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.outline {
+    border: 3px solid rgb(214, 214, 214);
+}
+
+.header-color {
+    background-color: rgb(23,162,184);
+    /* border: 6px solid red; */
+    height: 100px;
+}
+
+.header-color > img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 40px;
+    left:30px;
+    border: 2px solid rgb(213, 211, 211); 
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+}
+
+#overlay {
+    
+    justify-content: flex-start;
+    padding: 40px;
+    /* border: 5px solid blue; */
+}
+
+.info {
+    /* border: 5px solid hotpink; */
+    align-items: center;
+}
+
+#location {
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    /* border: 1px solid cyan; */
+}
+
+#city {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#city-logo {
+    height: 15px;
+    width: 10px;
+    /* border: 1px solid pink; */
+}
+
+#job-titles {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    font-weight: bolder;
+    border: 1px solid pink;
+    flex-wrap: nowrap;
+    width: max-content;
+}
+
+#description {
+    margin-bottom: 10px;
+}
+
+#profile-settings {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 3px solid pink; */
+}
+
+#gear-icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}

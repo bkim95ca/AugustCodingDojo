@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, gray, white, white);
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.container {
+    /* border: 6px solid red; */
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header-image {
+    /* border: 3px solid black; */
+    height: 700px;
+    background: url(./images/interstellar_2b59_2560x1440.jpg);
+    object-fit: scale-down;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 20px 15px 0px;
+}
+
+.header-image > button {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.header-image > img {
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+    object-fit: cover;
+    border: 6px double white;
+    background-color: rgb(145, 15, 157);
+
+    position: relative;
+    top: 120px;
+    left: 50px;
+}
+
+#info {
+    /* height: 300px; */
+    border-bottom: 3px solid black;
+    padding-left: 210px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#info > p {
+    color: grey;
+    margin: 5px;
+}
+
+#row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#row-left, #row-right{
+    /* height: 80px; */
+    width: 200px;
+}
+
+#row-left > img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#friend2 {
+    right: 10px;
+}
+
+#friend3 {
+    right: 20px;
+}
+
+#friend4 {
+    right: 30px;
+}
+
+#friend5 {
+    right: 40px;
+}
+
+#friend6 {
+    right: 50px;
+}
+
+#story, #edit-profile {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#story {
+    background-color: blue;
+    color: white;
+
+}
+
+#edit-profile {
+    background-color: rgb(225, 221, 221);
+}
+
+#plus {
+    background-color: white;
+    color: blue;
+    border-radius: 50%;
+    height: 3px;
+    width: 5px;
+    font-weight: bold;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#nav-links a {
+    color: gray;
+    text-decoration: none;
+}
+
+#nav-bar > button {
+    padding: 5px 14px;
+}
+
+#dropdown {
+    font-size: 10px;
+}

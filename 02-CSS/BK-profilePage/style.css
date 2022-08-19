@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar { 
+    height: 100px;
+    border: 3px dotted black;
+    background-color: black;
+}
+
+.container {
+    border: 3px dotted orange;
+    display: flex;
+    height: 100vh;
+    padding: 30px 150px;
+    gap: 25px;
+}
+
+.col1 {
+    flex: 2;
+    border: 3px dotted pink;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+#profile {
+    border: 3px dotted red;
+    flex: 2;
+}
+
+#profile-header {
+    border: 3px dotted blue;
+    height: 100px;
+    background-color: rgb(23,162,184);
+}
+
+#profile-info {
+    border: 3px dotted green;
+    height: auto;
+}
+
+#education {
+    border: 3px dotted lightcoral;
+    flex: 1;
+}
+
+#education-header {
+    border: 3px dotted blue;
+    height: 50px;
+    background-color: rgb(51,51,51);
+}
+
+#education-info {
+    border: 3px dotted green;
+}
+
+.col2 {
+    border: 3px dotted hotpink;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#connection-req {
+    border: 3px dotted plum;
+    flex: 1;
+}
+
+#connection-req-header {
+    border: 3px dotted blue;
+    height: 70px;
+    background-color: rgb(51,51,51);
+}
+
+#connection-req-info {
+    border: 3px dotted green;
+}
+
+#connections {
+    border: 3px dotted purple;
+    flex: 2;
+}
+
+#connections-header {
+    border: 3px dotted blue;
+    height: 70px;
+    background-color: rgb(51,51,51);
+}
+
+#connections-info {
+    border: 3px dotted green;
+}

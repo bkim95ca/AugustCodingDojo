@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0px 20px;
+}
+
+.header {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+#header-left > img {
+    height: 70px;
+}
+
+#header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#header-right > a {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+#header-right > img {
+    height: 70px;
+}
+
+#nav-bar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    gap: 30px;
+    list-style: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#nav-bar-links a {
+    color: black;
+}
+
+#nav-bar-links input {
+    padding-left: 5px;
+    width: 240px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+
+#search-icon {
+    height: 20px;
+    position:relative;
+    right: 80px;
+    top: 3px;
+}
+
+#slogan {
+    text-align: center;
+    font-size: 48px; 
+    /* border: 2px solid red; */
+    font-style: italic;
+    padding: 10px;
+}
+
+#players-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: coral;
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.player > img {
+    height: 140px;
+}
+
+.player > p:nth-child(3) {
+    font-style: italic;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+#col-left, #col-right {
+    /* border: 1px solid black; */
+    /* height: 300px; */
+}
+
+#col-left {
+    flex: 1;
+}
+
+#try-now-container {
+    display: flex;
+    background-color: coral;
+    font-size: 30px;
+    align-items: center;
+    gap: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    font-weight: 700;
+}
+
+#try-now-container > img {
+    height: 50px;
+    width: 100px;
+}
+
+#reggie {
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+}
+
+#col-right {
+    flex: 3;
+    display: flex;
+}
+
+#steph-shooting {
+    height: 320px;
+    width: 240px;
+}
+
+#learn-description {
+    text-align: center;
+    background-color: coral;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320px;
+    /* padding: 50px 0px; */
+    justify-content: center;
+    gap: 20px;
+}
+
+#learn-description > button {
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px 40px;
+    box-shadow: 3px 3px 3px black;
+    background-color: bisque;
+}
+
+#terms {
+    background-color: gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#terms > h5 {
+    text-align: center;
+}
+
+#cookie-box {
+    background-color: burlywood;
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    width: 94.5%;
+    font-size: 24px;
+}
+
+#cookie-box > img {
+    height: 120px;
+}
+
+#cookie-box > button {
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+}

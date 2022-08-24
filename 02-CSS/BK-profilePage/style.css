@@ -173,7 +173,7 @@
 } */
 
 #connection-req-header {
-    border: 3px dotted blue;
+    /* border: 3px dotted blue; */
     height: 70px;
     background-color: rgb(51,51,51);
     padding: 15px 10px;

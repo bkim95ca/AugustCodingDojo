@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    padding: 0px 50px;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(204,204,204);
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header > h1 {
+    font-size: 40px;
+}
+
+.header > input {
+    width: 400px;
+    height: 30px;
+}
+
+.header > button {
+    padding: 5px 15px;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+#col-left {
+    flex: 3;
+    gap: 20px;
+}
+
+#col-right {
+    /* border: 1px solid blue; */
+    width: 50px;
+    flex: 1;
+}
+
+#ninja-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    gap: 20px;
+    padding: 15px;
+}
+
+#ninja > button {
+    margin-top: 20px;
+    background-color: bisque;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#ninja {
+    /* border: 1px solid black; */
+    width: 100px;
+}
+
+#you-box > button {
+    background-color:darkseagreen;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 20px;
+}
+
+#you-box > p {
+    font-size: 20px;
+}
+
+#you-box {
+    border: 1px solid black;
+    padding: 15px;
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.flex-container {
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#top-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#top-row > button {
+    padding: 3px 10px;
+    background-color: bisque;
+    box-shadow: 3px 3px 3px black;
+}
+
+#bottom-row {
+    font-size: 20px;
+}
